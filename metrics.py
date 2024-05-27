@@ -35,11 +35,17 @@ variance_theoretical_alpha2_beta2 = np.var(noise) / (1 - alpha2**2)
 variance_empirical_alpha1_beta1 = np.var(X_alpha1_beta1)
 variance_empirical_alpha2_beta2 = np.var(X_alpha2_beta2)
 
+# Υπολογισμός του μέσου όρου
+mean_alpha1_beta1 = np.mean(X_alpha1_beta1)
+mean_alpha2_beta2 = np.mean(X_alpha2_beta2)
+
 
 print("Θεωρητική διακύμανση (α1, β1):", variance_theoretical_alpha1_beta1)
 print("Εμπειρική διακύμανση (α1, β1):", variance_empirical_alpha1_beta1)
+print("Μέσος όρος (α1, β1):", mean_alpha1_beta1)
 print("Θεωρητική διακύμανση (α2, β2):", variance_theoretical_alpha2_beta2)
 print("Εμπειρική διακύμανση (α2, β2):", variance_empirical_alpha2_beta2)
+print("Μέσος όρος (α2, β2):", mean_alpha2_beta2)
 
 # Γράφημα της αυτοσυσχέτισης για alpha1 και beta1
 plt.figure(figsize=(10, 5))
