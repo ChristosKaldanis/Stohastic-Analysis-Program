@@ -1,12 +1,12 @@
 # Stohastic-Analysis-Program
 # Info
 
-# Περιγραφή Project
-Το Project Stohastic-Analysis-Program αφορά την στοχαστική ανάλυση δύο Markov χρονοσειρών με θετικό και αρνητικό συντελεστή αλλά και αντιστρόφως χρησιμοποιώντας τις βιβλιόθηκες Numpy, Matplotlib και Statsmodels.api. 
+# Project Description
+The Stohastic-Analysis-Program project involves the stochastic analysis of two Markov time series with positive and negative coefficients, as well as their inverses, using the Numpy, Matplotlib, and Statsmodels.api libraries.
 
-# Μεθοδολογία 
-Αρχικά, αφού ορίσουμε τους συντελεστές μας ορίζουμε και τον αριθμό των δειγμάτων (τιμών) που θα χρησιμοποιήσουμε. Στη συνέχεια δημιουργούμε τον θόρυβο με τυπική απόκλιση 10. Δημιουργούμε τις χρονοσειρές μας για α1 = 0,2 και β1 = -0,8 και αντίστοιχα για α2 = -0,8 και β2 = 0,2. Υπολογίζουμε την αυτοσυσχέτιση (Αutocorrelation) για 10 διαφορετικά σημεία (nlags = 10) σε διαφορετικές χρονικές περιόδους, ώστε να δούμε πόσο επηρεάζεται το κάθε ένα από το προηγούμενό του. Ύστερα, υπολογίζουμε τη θεωρητική αλλά και την εμπειρική διακύμανση για να κρίνουμε εάν οι συντελεστές που έχουμε πάρει είναι προσιτοί για ανάλυση. Για να είναι προσιτοί πρέπει το αποτέλεσμα της θεωρητικής διακύμανσης να είναι όσο πιο κοντά γίνεται στο αποτέλεσμα της εμπειρικής διακύμανσης. Επιπλέον, υπολογίζουμε τον μέοο όρο και για τις δύο χρονοσειρές. Τέλος, απεικονίζεται η αυτοσυσχέτιση και για τις δύο περιπτώσεις, καθώς και η κατανομή των τιμών των δύο χρονοσειρών.
+# Methodology
+First, after defining our coefficients, we set the number of samples (values) to be used. Next, we create noise with a standard deviation of 10. We generate our time series for α1 = 0.2 and β1 = -0.8, and correspondingly for α2 = -0.8 and β2 = 0.2. We compute the autocorrelation for 10 different lags (nlags = 10) at different time periods to see how each point is affected by its predecessor. Then, we calculate both the theoretical and empirical variance to assess if the coefficients we have chosen are suitable for analysis. For the coefficients to be suitable, the theoretical variance result should be as close as possible to the empirical variance result. Additionally, we calculate the mean for both time series. Finally, we visualize the autocorrelation for both cases, as well as the distribution of the values of the two time series.
 
-# Υλοποίηση
-Η υλοποίηση του συγκεκριμένου Project πραγματοποιήθηκε από τον Καλδάνη Χρήστο, προπτυχιακό φοιτητή στο τμήμα Πληροφορικής του Ιονίου Πανεπιστημίου.
+# Implementation
+This project was implemented by Christos Kaldanis, an undergraduate student at the Department of Informatics, Ionian University.
 
