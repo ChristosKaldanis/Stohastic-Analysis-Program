@@ -1,5 +1,5 @@
 # Stohastic-Analysis-Program
-# Info
+
 
 # Project Description
 The Stohastic-Analysis-Program project involves the stochastic analysis of two Markov time series with positive and negative coefficients, as well as their inverses, using the Numpy, Matplotlib, and Statsmodels.api libraries.
